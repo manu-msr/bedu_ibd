@@ -79,8 +79,11 @@ Una vez creada la vista, podemos consultarla como a cualquier otra colección.
 
 Aplica lo todo lo que aprendiste durante la sesión con estos ejercicios.
 
-- [**`PROYECTO SESIÓN 6`**](Ejercicios/Readme.md)
+- [**`EJERCICIOS SESIÓN 6`**](Ejercicios/Readme.md)
 
+> *__Importante:__ Los ejercicios se plantean a manera de propuesta y pueden cambiarse de acuerdo con los tiempos de cada grupo y los temas en que la experta(o) considere debe profundizarse más.*   
+
+> *Se sugiere realizar estos ejercicios en equipo.*
 
 </br>
 
