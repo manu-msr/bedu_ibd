@@ -9,13 +9,27 @@
 - Conocer las operaciones sobre bases de datos.
 
 ### 2. Requisitos :clipboard:
-- Servidor de __MySQL__ instalado u ejecutándose.
+- Servidor de __MySQL__ instalado y ejecutándose en tu equipo.
 
 ### 3. Desarrollo :rocket:
 
+---
+
+<img src="../imagenes/tabla.gif" align="right" height="170" width="200"> 
+
+:warning: <ins>**IMPORTANTE**</ins>
+
+_En este ejemplo trabajaremos con la instancia de __MySQL__ que instalaste y configuraste en el *Prework* de la sesión_.
+
+_NO REALICES LOS EJEMPLOS NI RETOS EN EL SERVIDOR DE BEDU._ :pray: 
+
+_Si no sigues esta indicación... ¡Hay Tabla!_ :eyes:
+
+---
+
 1. Conectate a tu base de datos desde __MySQL Workbench__ con las credenciales correspondientes a la configuración de tu servidor.
 
-1. Para crear una base de datos se usa la instrucción `CREATE DATABASE Nombre`, donde `Nombre` suele ser el nombre del proyecto, pero para el curso usa tu nombre y un apellido o un seudónimo en redes sociales que prefieras.
+1. Para crear una base de datos se usa la instrucción `CREATE DATABASE Nombre`, donde `Nombre` suele ser el nombre del proyecto, pero para el curso usa tú nombre y un apellido o un seudónimo en redes sociales que prefieras.
 
    ![imagen](imagenes/s7e11.png)
 
