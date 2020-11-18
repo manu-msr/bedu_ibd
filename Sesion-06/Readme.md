@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 6`
+[`Introducción a Bases de Datos`](../README.md) > `Sesión 6`
 
 ## Sesión 6: Agregaciones
 
@@ -61,7 +61,7 @@ De la misma forma en que __SQL__ incluye distintos tipos de *join*. En __MongoDB
 En __MongoDB__ también es posible generar vistas que almacenen el resultado de las distintas consulas. Para generar una vista usaremos __Compass__.
 
 Una vez creada la vista, podemos consultarla como a cualquier otra colección.
-
+x
 - [**`EJEMPLO 3`**](Ejemplo-03/Readme.md)
 - [**`RETO 3`**](Reto-03/Readme.md)
 
