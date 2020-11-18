@@ -1,4 +1,4 @@
-[`Introducción a Bases de Datos`](../Readme.md) > `Sesión 07`
+[`Introducción a Bases de Datos`](../README.md) > `Sesión 07`
 
 ## Sesión 7: Configuración de Bases de Datos Locales
 
@@ -12,6 +12,20 @@
 - Generar vistas que almacenen el resultado de una agregación
 
 ### 2. Contenido :blue_book:
+
+---
+
+<img src="imagenes/tabla.gif" align="right" height="170" width="200"> 
+
+:warning: <ins>**IMPORTANTE**</ins>
+
+_A partir de esta sesión trabajaremos con la instancia de __MySQL__ que instalaste en el *Prework* y en la instancia de __MongoDB Atlas__ que crearemos en el Ejemplo 4._
+
+_NO REALICES LOS EJEMPLOS NI RETOS EN EL SERVIDOR DE BEDU._ :pray: 
+
+_Si no sigues esta indicación... ¡Hay Tabla!_ :eyes:
+
+---
 
 #### Parte I: Configuración de Bases Relacionales
 
@@ -55,7 +69,7 @@ Para crear una tabla se usa el comando (en su forma simple):
 ##### <ins>Importando datos a una tabla en formato CSV</ins>
 <img src="imagenes/imagen3.jpg" align="right" height="200" width="300">
 
-Para cargar datos en una tabla o base de datos completa se pueden utilizar archivos *CSV* o *JSON*. *CSV* es uno de los más utilizados y admitidos por __MySQL Workbench__.
+Para cargar datos en una tabla o base de datos completa es usual que se deban utilizar archivos como lo son *CSV* o *JSON*. *CSV* es uno de los más utilizados y admitidos por __MySQL Workbench__.
 
 Un archivo *CSV* se conforma de un encabezado que indica el nombre de las columnas separado por comas y cada uno de los registros, separando el valor para cada campo por comas. 
 
@@ -72,11 +86,11 @@ Un archivo *CSV* se conforma de un encabezado que indica el nombre de las column
 ##### <ins>Configuración de __MongoDB__ en la nube</ins>
 <img src="imagenes/imagen4.jpg" align="right" height="200" width="300">
 
-Para facilitar la creación de servidores de bases de datos (llamados *clusters* pues se conforman de varios servidores a la vez), __MongoDB__ provee una platadorma que permite crear bases de datos en la nube de forma sencilla. 
+Para facilitar la creación de servidores de bases de datos (llamados *clusters* pues se conforman de varios servidores a la vez), __MongoDB__ provee una plataforma que permite crear bases de datos en la nube de forma sencilla. 
 
-Esta plataforma, llamada __Atlas__ permite crear un *cluster* de forma gratuita por lo que lo usaremos para ejemplificar este proceso. Puede utilizarlo también para tu proyecto.
+Esta plataforma, llamada __Atlas__ permite crear un *cluster* de forma gratuita por lo que lo usaremos para ejemplificar este proceso. Puedes utilizarlo también para tu proyecto.
 
-> *Explicar el concepto de base de datos en la nube y su principal diferencia con una base de datos local. Mostrar similudes con el servicio AWS de Amazon.*
+> *Explicar el concepto de base de datos en la nube y su principal diferencia con una base de datos local. Mostrar similitudes con el servicio AWS de Amazon.*
 
 - [**`EJEMPLO 4`**](Ejemplo-04/Readme.md)
 
@@ -102,6 +116,30 @@ Al igual que en __MySQL__ es posible cargar los datos usando formatos de interca
 
 - [**`EJEMPLO 6`**](Ejemplo-06/Readme.md)
 - [**`RETO 3`**](Reto-03/Readme.md)
+
+---
+##### <ins>Realizando operaciones con Documentos</ins>
+<img src="imagenes/imagen7.jpg" align="right" height="200" width="300">
+
+Una vez creada una colección, ya sea mediante la carga masiva de datos o de forma vacía. Es posible modificar los documento que se almacenan ahí. Es posible:
+
+1. Agregar documentos
+1. Editar documentos
+1. Eliminar documentos
+
+- [**`EJEMPLO 7`**](Ejemplo-07/Readme.md)
+
+---
+
+### 3. Ejercicios :hammer:
+
+Aplica lo todo lo que aprendiste durante la sesión con estos ejercicios.
+
+- [**`EJERCICIOS SESIÓN 7`**](Ejercicios/Readme.md)
+
+> *__Importante:__ Los ejercicios se plantean a manera de propuesta y pueden cambiarse de acuerdo con los tiempos de cada grupo y los temas en que la experta(o) considere debe profundizarse más.*   
+
+> *Se sugiere realizar estos ejercicios en equipo.*
 
 </br>
 

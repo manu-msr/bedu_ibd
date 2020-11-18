@@ -21,10 +21,10 @@ principal objetivo conocer los principales conceptos que ahondan las bases de da
  - [Sesión 7: Configuración de Bases de Datos Locales](Sesion-07/Readme.md) 
  - [Sesión 8: *Query competition*](Sesion-08/Readme.md)  
  
- ### Bases de Datos  
- https://drive.google.com/open?id=18kYvknY5n087piu3vrz9mnA-4Exif0gK
+### Bases de Datos  
+https://drive.google.com/open?id=18kYvknY5n087piu3vrz9mnA-4Exif0gK
 
- ### Instalaciones
+### Instalaciones
 https://bedu.org/blog/tecnologia/instalacion-base-de-datos/
 
 [`Siguiente`](Sesion-01/Readme.md)

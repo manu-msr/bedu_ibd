@@ -4,12 +4,26 @@
 
 ### 1. Objetivos :dart:
 - Aplicar el procedimiento para importación de datos a una tabla
-- Validar que la correcta importación de los datos
+- Validar la correcta importación de los datos
 
 ### 2. Requisitos :clipboard:
-- Servidor __MySQL__ instalado
+- Servidor __MySQL__ instalado en tu equipo
 
 ### 3. Desarrollo :rocket:
+
+---
+
+<img src="../imagenes/tabla.gif" align="right" height="170" width="200"> 
+
+:warning: <ins>**IMPORTANTE**</ins>
+
+_En este reto debes trabajar con la instancia de __MySQL__ que instalaste y configuraste en el *Prework* de la sesión_.
+
+_NO REALICES LOS EJEMPLOS NI RETOS EN EL SERVIDOR DE BEDU._ :pray: 
+
+_Si no sigues esta indicación... ¡Hay Tabla!_ :eyes:
+
+---
 
 1. Usando como base el archivo `movies.dat`, limpiarlo e importar los datos en la tabla `movies` creada en el Reto 1.
 

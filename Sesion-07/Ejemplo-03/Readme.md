@@ -4,13 +4,28 @@
 
 ### 1. Objetivos :dart:
  - Conocer el procedimiento para importación de datos a una tabla
- - Validar que la correcta importación de los datos
+ - Validar la correcta importación de los datos
 
 ### 2. Requisitos :clipboard:
- - Servidor __MySQL__ instalado
+ - Servidor __MySQL__ instalado en tu equipo
 
 ### 3. Desarrollo :rocket:
-1. Para cargar nuestros conjuntos de datos necesitamos que estén en un formato CSV. Como recordarás, el archivo `users.dat` tiene el siguiente formato:
+
+---
+
+<img src="../imagenes/tabla.gif" align="right" height="170" width="200"> 
+
+:warning: <ins>**IMPORTANTE**</ins>
+
+_En este ejemplo trabajaremos con la instancia de __MySQL__ que instalaste y configuraste en el *Prework* de la sesión_.
+
+_NO REALICES LOS EJEMPLOS NI RETOS EN EL SERVIDOR DE BEDU._ :pray: 
+
+_Si no sigues esta indicación... ¡Hay Tabla!_ :eyes:
+
+---
+
+1. Para cargar nuestros conjuntos de datos necesitamos que estén en formato CSV. Como recordarás, el archivo `users.dat` tiene el siguiente formato:
 
    ```
    1::F::1::10::48067

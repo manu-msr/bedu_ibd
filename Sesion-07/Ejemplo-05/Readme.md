@@ -8,9 +8,24 @@
 
 ### 2. Requisitos :clipboard:
 1. MongoDB Compass instalado
-1. Datos de conexión al Servidor MongoDB
+1. Datos de conexión al Servidor MongoDB que configuraste
 
 ### 3. Desarrollo :rocket:
+
+---
+
+<img src="../imagenes/tabla.gif" align="right" height="170" width="200"> 
+
+:warning: <ins>**IMPORTANTE**</ins>
+
+_En este ejemplo trabajaremos con la instancia de __MongoDB Atlas__ que instalaste y configuraste en el Ejemplo 4_.
+
+_NO REALICES LOS EJEMPLOS NI RETOS EN EL SERVIDOR DE BEDU._ :pray: 
+
+_Si no sigues esta indicación... ¡Hay Tabla!_ :eyes:
+
+---
+
 1. Conectarse a la base de datos creada en el Ejemplo 4.
 
 1. En la ventana de __MongoDB Compass__ presionar el botón __CREATE DATABASE__ y crear la base de datos __MiNombre__ con la colección __users__, se tiene que definir el nombre de la primera colección para que se pueda crear la base de datos.

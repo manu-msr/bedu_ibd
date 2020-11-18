@@ -7,11 +7,25 @@
  - Crear una tabla acorde a los datos
 
 ### 2. Requisitos :clipboard:
-- Servidor __MySQL__ instalado
+- Servidor __MySQL__ instalado en tu equipo.
 
 ### 3. Desarrollo :rocket:
 
-1. Comenzaremos descargando un conjunto de datos para ilustrar el proceso de carga de archivos. El archivo se encuentra [aquí](http://files.grouplens.org/datasets/movielens/ml-1m.zip). Descarga el archivo y extraelo en tu computadora. 
+---
+
+<img src="../imagenes/tabla.gif" align="right" height="170" width="200"> 
+
+:warning: <ins>**IMPORTANTE**</ins>
+
+_En este ejemplo trabajaremos con la instancia de __MySQL__ que instalaste y configuraste en el *Prework* de la sesión_.
+
+_NO REALICES LOS EJEMPLOS NI RETOS EN EL SERVIDOR DE BEDU._ :pray: 
+
+_Si no sigues esta indicación... ¡Hay Tabla!_ :eyes:
+
+---
+
+1. Comenzaremos descargando un conjunto de datos para ilustrar el proceso de carga de archivos. El archivo se ecuentra [aquí](http://files.grouplens.org/datasets/movielens/ml-1m.zip). Descarga el archivo y extraelo en tu computadora. 
 
 1. Antes de crear una tabla, primero se revisará la estructura de los datos y la documentación para el archivo `users.csv`
 
@@ -60,14 +74,14 @@
    ...
    ```
 
-   Así que se definen los siguientes datos y tipo para crear la tabla `Users` en __MySQL__:
+   Así que se definen los siguientes datos y tipos para crear la tabla `Users` en __MySQL__:
    - `id INT PRIMARY KEY`
    - `genero VARCHAR(1)`
    - `edad INT`
    - `ocup INT`
    - `cp VARCHAR(20)`
 
-   El `id` será la llave primaria para la tabla, esto hay que indicarlo para que los valores sean únicos y además se crea un índice para acelerar las búsquedas.
+   El `id` será la llave primaria para la tabla, esto hay que indicarlo para que los valores sean únicos. Adicionalmente, se crea un índice para acelerar las búsquedas.
 
    Para `edad` y `ocup` por el rango de datos que no va más allá de los 256 se podría usar el tipo `INT1` que es un entero que usa un sólo byte, pero esto es opcional.
 
@@ -96,7 +110,7 @@
 
    para evitar que se marque un error en caso de que la tabla ya exista y se intente crear de nuevo.
 
-1. Otra operación a realizar es el de eliminar una tabla, eso se hace con el comando `DROP TABLE nombre`
+1. Otra operación a realizar es la de eliminar una tabla, eso se hace con el comando `DROP TABLE nombre`
 
    Así que para eliminar la tabla `users` se ejecuta el comando:
 
